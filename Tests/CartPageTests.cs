@@ -13,7 +13,7 @@ namespace PlanitTest.Tests
     [TestClass, TestCategory(TestCategory.CartPage)]
     public class CartPageTests: BaseTest
     {
-        [TestMethod, Description("Validate the cart for selected items"), TestProperty("Author", "NikhilKumar"), TestCategory(TestCategory.UAT]
+        [TestMethod, Description("Validate the cart for selected items"), TestProperty("Author", "NikhilKumar"), TestCategory(TestCategory.UAT)]
 
         public void TestCase4()
         {
