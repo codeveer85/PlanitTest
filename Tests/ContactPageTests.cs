@@ -13,7 +13,7 @@ namespace PlanitTest.Tests
     [TestClass, TestCategory(TestCategory.ContactPage)]
     public class ContactPageTests : BaseTest
     {
-        [TestMethod, Description("Validate the error messages of ContactPage"), TestProperty("Author", "NikhilKumar")]
+        [TestMethod, Description("Validate the error messages of ContactPage"), TestProperty("Author", "NikhilKumar"), TestCategory(TestCategory.Regression)]
 
         public void TestCase1()
 
@@ -51,7 +51,7 @@ namespace PlanitTest.Tests
         }
 
 
-        [TestMethod, Description("Validate the Successful submission Message on Contact Page"), TestProperty("Author", "NikhilKumar")]
+        [TestMethod, Description("Validate the Successful submission Message on Contact Page"), TestProperty("Author", "NikhilKumar"), TestCategory(TestCategory.Regression)]
 
         public void TestCase2()
 
@@ -84,7 +84,7 @@ namespace PlanitTest.Tests
 
 
 
-        [TestMethod, Description("Validate the Error Messages on submitting Invalid Data"), TestProperty("Author", "NikhilKumar")]
+        [TestMethod, Description("Validate the Error Messages on submitting Invalid Data"), TestProperty("Author", "NikhilKumar"), TestCategory(TestCategory.SIT)]
 
         public void TestCase3()
 
