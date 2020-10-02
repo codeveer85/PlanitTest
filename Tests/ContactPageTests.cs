@@ -101,7 +101,7 @@ namespace PlanitTest.Tests
                 contactPage.EnterEmail(invalidEmail);
                 contactPage.EnterTelephone(invalidPhone);
 
-                Assert.AreEqual("Please enter a invalid email", contactPage.GetEmailErrorMsg(), $"Displayed Email error message  is different and looks like : {contactPage.GetEmailErrorMsg()}");
+                Assert.AreEqual("Please enter a valid email", contactPage.GetEmailErrorMsg(), $"Displayed Email error message  is different and looks like : {contactPage.GetEmailErrorMsg()}");
                 Assert.AreEqual("Please enter a valid telephone number", contactPage.GetTelephoneErrorMsg(), $"Displayed telephone error message  is different and looks like : {contactPage.GetTelephoneErrorMsg()}");
             }
 
