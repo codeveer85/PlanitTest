@@ -39,6 +39,6 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    testFiltercriteria: 'TestCategory = Regression'  
+     
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
